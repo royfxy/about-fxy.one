@@ -1,0 +1,29 @@
+.text {
+  &.primary {
+    color: var(--color-text-primary);
+  }
+  &.secondary {
+    color: var(--color-text-secondary);
+  }
+  &.disabled {
+    color: var(--color-text-disabled);
+  }
+  &.xxl {
+    font-size: var(--font-size-xxl);
+  }
+  &.xl {
+    font-size: var(--font-size-xl);
+  }
+  &.l {
+    font-size: var(--font-size-l);
+  }
+  &.m {
+    font-size: var(--font-size-m);
+  }
+  &.s {
+    font-size: var(--font-size-s);
+  }
+  &.xs {
+    font-size: var(--font-size-xs);
+  }
+}

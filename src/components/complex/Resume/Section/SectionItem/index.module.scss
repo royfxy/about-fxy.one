@@ -1,0 +1,28 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.subTitle {
+  margin-bottom: 0.4rem;
+}
+
+.line {
+  margin-bottom: 0.4rem;
+  line-height: 1.5rem;
+}
+
+.tagsWrapper,
+.descriptionWrapper {
+  margin-bottom: 0.5rem;
+}
+
+.splitItem {
+  white-space: nowrap;
+}

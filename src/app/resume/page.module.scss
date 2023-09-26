@@ -1,0 +1,39 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 2rem;
+  min-height: 100vh;
+  margin: auto;
+  max-width: 60rem;
+}
+
+.sections {
+  display: flex;
+  flex-direction: column;
+}
+
+.sectionWrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .sectionWrapper {
+    flex-direction: column;
+  }
+}
+
+.mainSection {
+  flex: 3;
+  min-width: 15rem;
+}
+
+.split {
+  width: 4rem;
+}
+
+.sideSection {
+  flex: 2;
+  min-width: 12rem;
+}
