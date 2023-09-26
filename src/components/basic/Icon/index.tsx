@@ -8,7 +8,11 @@ interface IconProps {
 }
 
 const Icon: React.FC<IconProps> = ({ IconName, className }) => {
-  return <IconName className={`${className} ${styles.icon}`} />
+  return (
+    <span className={`${className} ${styles.icon}`}>
+      <IconName />
+    </span>
+  )
 }
 
 export default Icon
